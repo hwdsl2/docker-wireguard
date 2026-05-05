@@ -21,7 +21,7 @@ Docker image to run a WireGuard VPN server. Based on Alpine Linux with WireGuard
 
 - Without Docker: [WireGuard install script](https://github.com/hwdsl2/wireguard-install)
 - VPN: [OpenVPN](https://github.com/hwdsl2/docker-openvpn), [IPsec VPN](https://github.com/hwdsl2/docker-ipsec-vpn-server), [Headscale](https://github.com/hwdsl2/docker-headscale)
-- AI/Audio: [Whisper (STT)](https://github.com/hwdsl2/docker-whisper), [Kokoro (TTS)](https://github.com/hwdsl2/docker-kokoro), [Embeddings](https://github.com/hwdsl2/docker-embeddings), [LiteLLM](https://github.com/hwdsl2/docker-litellm), [Ollama (LLM)](https://github.com/hwdsl2/docker-ollama)
+- AI/Audio: [Self-hosted AI Stack](https://github.com/hwdsl2/docker-ai-stack)
 
 ## Quick start
 
