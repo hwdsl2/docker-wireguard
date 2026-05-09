@@ -246,6 +246,7 @@ services:
 
 volumes:
   wireguard-data:
+    name: wireguard-data
 ```
 
 ## Обновление Docker-образа

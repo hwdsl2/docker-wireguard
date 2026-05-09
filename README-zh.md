@@ -246,6 +246,7 @@ services:
 
 volumes:
   wireguard-data:
+    name: wireguard-data
 ```
 
 ## 更新 Docker 镜像
