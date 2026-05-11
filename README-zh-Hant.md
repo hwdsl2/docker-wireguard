@@ -2,7 +2,7 @@
 
 # 在 Docker 上運行 WireGuard VPN 伺服器
 
-[![Build Status](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml/badge.svg)](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml) &nbsp;[![License: MIT](docs/images/license.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml/badge.svg)](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml) &nbsp;[![Docker Pulls](https://img.shields.io/docker/pulls/hwdsl2/wireguard-server)](https://hub.docker.com/r/hwdsl2/wireguard-server) &nbsp;[![License: MIT](docs/images/license.svg)](https://opensource.org/licenses/MIT)
 
 一個用於運行 WireGuard VPN 伺服器的 Docker 映像檔。基於 Alpine Linux，整合 WireGuard。設計目標是簡單、現代且易於維護。
 
