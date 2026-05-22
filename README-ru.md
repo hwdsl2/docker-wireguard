@@ -265,6 +265,10 @@ Status: Image is up to date for hwdsl2/wireguard-server:latest
 
 В противном случае будет загружена последняя версия. Удалите и пересоздайте контейнер, следуя инструкциям из раздела [Быстрый старт](#быстрый-старт). Ваши данные сохранены в volume `wireguard-data`.
 
+## Сообщество
+
+- Обсуждения и примеры: [r/selfhostedstack](https://www.reddit.com/r/selfhostedstack/)
+
 ## Технические детали
 
 - Базовый образ: `alpine:3.23`
