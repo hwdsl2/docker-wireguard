@@ -267,7 +267,7 @@ Status: Image is up to date for hwdsl2/wireguard-server:latest
 
 ## 社群
 
-- 討論與展示：[r/selfhostedstack](https://www.reddit.com/r/selfhostedstack/)
+- 討論與更新：[r/selfhostedstack](https://www.reddit.com/r/selfhostedstack/)
 
 ## 技術細節
 
