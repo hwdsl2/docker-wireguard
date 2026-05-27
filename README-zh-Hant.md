@@ -61,6 +61,9 @@ docker cp wireguard:/etc/wireguard/clients/client.conf .
 
 另外，你也可以在不使用 Docker 的情況下[安裝 WireGuard VPN](https://github.com/hwdsl2/wireguard-install/blob/master/README-zh-Hant.md)。若要了解更多關於如何使用本映像檔的資訊，請繼續閱讀以下部分。
 
+> [!TIP]
+> [訂閱專案更新](https://selfhostedstack.beehiiv.com/subscribe?utm_campaign=vpn)，獲取免費的 VPN 和 AI 部署指南（PDF，英文）。
+
 ## 系統需求
 
 - 具有公用 IP 位址或 DNS 名稱的 Linux 伺服器
@@ -267,8 +270,8 @@ Status: Image is up to date for hwdsl2/wireguard-server:latest
 
 ## 社群
 
-- 訂閱專案更新（每月 1-2 封郵件）：[Self-Hosted Stack](https://selfhostedstack.beehiiv.com/subscribe?utm_campaign=vpn)
-- 社群討論：[r/selfhostedstack](https://www.reddit.com/r/selfhostedstack/)
+- [訂閱專案更新](https://selfhostedstack.beehiiv.com/subscribe?utm_campaign=vpn)（每月 1–2 封郵件）
+- 加入 [r/selfhostedstack](https://www.reddit.com/r/selfhostedstack/) 社群參與討論
 
 ## 技術細節
 
