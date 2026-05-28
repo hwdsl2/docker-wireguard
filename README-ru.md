@@ -62,7 +62,7 @@ docker cp wireguard:/etc/wireguard/clients/client.conf .
 В качестве альтернативы вы можете [настроить WireGuard VPN без Docker](https://github.com/hwdsl2/wireguard-install/blob/master/README-ru.md). Чтобы узнать больше о том, как использовать этот образ, прочитайте разделы ниже.
 
 > [!TIP]
-> [Подписаться на обновления проектов](https://selfhostedstack.beehiiv.com/subscribe?utm_campaign=vpn) и получить бесплатные руководства по развёртыванию VPN и AI (PDF, на английском).
+> [Подписаться на обновления проектов](https://selfhostedstack.beehiiv.com/subscribe?utm_campaign=vpn-ru) (1–2 письма в месяц) и получить бесплатные руководства по развёртыванию VPN и AI (PDF, на английском).
 
 ## Требования
 
@@ -270,7 +270,7 @@ Status: Image is up to date for hwdsl2/wireguard-server:latest
 
 ## Сообщество
 
-- [Подписаться на обновления проектов](https://selfhostedstack.beehiiv.com/subscribe?utm_campaign=vpn) (1–2 письма в месяц)
+- [Подписаться на обновления проектов](https://selfhostedstack.beehiiv.com/subscribe?utm_campaign=vpn-ru) (1–2 письма в месяц)
 - Присоединяйтесь к сообществу [r/selfhostedstack](https://www.reddit.com/r/selfhostedstack/) для обсуждений
 
 ## Технические детали
