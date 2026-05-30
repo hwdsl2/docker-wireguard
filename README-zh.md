@@ -61,8 +61,11 @@ docker cp wireguard:/etc/wireguard/clients/client.conf .
 
 另外，你也可以在不使用 Docker 的情况下[安装 WireGuard VPN](https://github.com/hwdsl2/wireguard-install/blob/master/README-zh.md)。要了解更多有关如何使用本镜像的信息，请继续阅读以下部分。
 
-> [!TIP]
-> [订阅项目更新](https://selfhostedstack.beehiiv.com/subscribe?utm_campaign=vpn-zh)（每月 1–2 封邮件），获取免费的 VPN 和 AI 部署指南（PDF，英文）。
+## 社区
+
+- 📬 [订阅项目更新](https://selfhostedstack.beehiiv.com/subscribe?utm_campaign=vpn-zh)（每月 1–2 封邮件）——获取免费的 VPN 和 AI 部署指南（PDF，英文）
+- 💬 加入 [r/selfhostedstack](https://www.reddit.com/r/selfhostedstack/) 社区参与讨论
+- ⭐ 如果本项目对你有帮助，请为仓库加星
 
 ## 系统要求
 
@@ -267,11 +270,6 @@ Status: Image is up to date for hwdsl2/wireguard-server:latest
 ```
 
 否则将下载最新版本。按照[快速开始](#快速开始)中的说明删除并重新创建容器。数据保存在 `wireguard-data` 卷中。
-
-## 社区
-
-- [订阅项目更新](https://selfhostedstack.beehiiv.com/subscribe?utm_campaign=vpn-zh)（每月 1–2 封邮件）
-- 加入 [r/selfhostedstack](https://www.reddit.com/r/selfhostedstack/) 社区参与讨论
 
 ## 技术细节
 
