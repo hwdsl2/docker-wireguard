@@ -106,6 +106,7 @@ This Docker image uses the following variables, that can be declared in an `env`
 | `VPN_CLIENT_NAME` | Name of the first client config generated | `client` |
 | `VPN_DNS_SRV1` | Primary DNS server pushed to clients | `8.8.8.8` |
 | `VPN_DNS_SRV2` | Secondary DNS server pushed to clients | `8.8.4.4` |
+| `VPN_DISABLE_USAGE_COUNTS` | Set to `1` to disable anonymous aggregate usage counts. | *(not set)* |
 
 **Note:** In your `env` file, you may enclose values in single quotes, e.g. `VAR='value'`. Do not add spaces around `=`. If you change `VPN_PORT`, update the `-p` flag in the `docker run` command accordingly.
 
@@ -270,6 +271,10 @@ Status: Image is up to date for hwdsl2/wireguard-server:latest
 ```
 
 Otherwise, it will download the latest version. Remove and re-create the container using instructions from [Quick start](#quick-start). Your data is preserved in the `wireguard-data` volume.
+
+## Usage counts
+
+This image uses public GitHub release asset download counts for anonymous, aggregate usage counts. Counts are approximate and are not unique users or active installs. The image does not send a telemetry payload or use a private collector. It only attempts the best-effort count after the server starts with a mounted `/etc/wireguard` volume, and again when that persistent install first runs a different image build. To opt out, set `VPN_DISABLE_USAGE_COUNTS=1`.
 
 ## Technical details
 

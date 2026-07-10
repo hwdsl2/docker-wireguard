@@ -106,6 +106,7 @@ docker image tag quay.io/hwdsl2/wireguard-server hwdsl2/wireguard-server
 | `VPN_CLIENT_NAME` | 產生的第一個客戶端設定名稱 | `client` |
 | `VPN_DNS_SRV1` | 推送給客戶端的主要 DNS 伺服器 | `8.8.8.8` |
 | `VPN_DNS_SRV2` | 推送給客戶端的次要 DNS 伺服器 | `8.8.4.4` |
+| `VPN_DISABLE_USAGE_COUNTS` | 設為 `1` 可停用匿名彙總使用計數。 | *（未設定）* |
 
 **注：** 在 `env` 檔案中，可以用單引號括住變數值，例如 `VAR='值'`。不要在 `=` 周圍加上空格。如果修改了 `VPN_PORT`，請相應更新 `docker run` 命令中的 `-p` 參數。
 
@@ -270,6 +271,10 @@ Status: Image is up to date for hwdsl2/wireguard-server:latest
 ```
 
 否則將下載最新版本。依照[快速開始](#快速開始)中的說明刪除並重新建立容器。資料保存在 `wireguard-data` 卷中。
+
+## 使用計數
+
+此映像使用公開的 GitHub Release 資源下載次數進行匿名彙總使用計數。計數是近似值，不代表唯一使用者或活躍安裝。映像不會傳送遙測負載，也不會使用私有收集器。僅當伺服器啟動且掛載了 `/etc/wireguard` 卷後，才會以盡力而為方式計數；當該持久化安裝首次執行不同映像建置時，也會再次計數。若要退出，請設定 `VPN_DISABLE_USAGE_COUNTS=1`。
 
 ## 技術細節
 
