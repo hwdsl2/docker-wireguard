@@ -13,7 +13,7 @@ Docker image to run a WireGuard VPN server. Based on Alpine Linux with WireGuard
 - QR code displayed on first start for easy mobile setup
 - Supports kernel WireGuard (5.6+) with automatic fallback to `wireguard-go` (userspace)
 - Dual-stack IPv4 and IPv6 support for VPN clients
-- Automatically built and published via [GitHub Actions](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml)
+- Automatically built and published via [GitHub Actions](https://github.com/hwdsl2/docker-wireguard/actions)
 - Persistent data via a Docker volume
 - Multi-arch: `linux/amd64`, `linux/arm64`, `linux/arm/v7`
 

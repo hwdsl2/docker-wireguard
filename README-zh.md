@@ -13,7 +13,7 @@
 - 首次启动时在日志中显示二维码，便于移动设备快速配置
 - 支持内核 WireGuard（5.6+），并在不可用时自动回退到 `wireguard-go`（用户态实现）
 - 为 VPN 客户端提供双栈 IPv4 和 IPv6 支持
-- 通过 [GitHub Actions](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml) 自动构建和发布
+- 通过 [GitHub Actions](https://github.com/hwdsl2/docker-wireguard/actions) 自动构建和发布
 - 使用 Docker 卷实现数据持久化
 - 多架构支持：`linux/amd64`、`linux/arm64`、`linux/arm/v7`
 

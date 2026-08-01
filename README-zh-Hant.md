@@ -13,7 +13,7 @@
 - 首次啟動時在日誌中顯示 QR 碼，便於行動裝置快速設定
 - 支援核心 WireGuard（5.6+），並在不可用時自動退回至 `wireguard-go`（用戶空間實作）
 - 為 VPN 客戶端提供雙協定棧 IPv4 和 IPv6 支援
-- 透過 [GitHub Actions](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml) 自動建置和發布
+- 透過 [GitHub Actions](https://github.com/hwdsl2/docker-wireguard/actions) 自動建置和發布
 - 使用 Docker 卷實現資料持久化
 - 多架構支援：`linux/amd64`、`linux/arm64`、`linux/arm/v7`
 

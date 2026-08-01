@@ -13,7 +13,7 @@ Docker-образ для запуска сервера WireGuard VPN. Основ
 - QR-код отображается при первом запуске для быстрой настройки мобильных устройств
 - Поддержка ядрового WireGuard (5.6+) с автоматическим переключением на `wireguard-go` (пользовательское пространство)
 - Поддержка двойного стека IPv4 и IPv6 для VPN-клиентов
-- Автоматически собирается и публикуется через [GitHub Actions](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml)
+- Автоматически собирается и публикуется через [GitHub Actions](https://github.com/hwdsl2/docker-wireguard/actions)
 - Постоянное хранение данных через Docker volume
 - Поддержка нескольких архитектур: `linux/amd64`, `linux/arm64`, `linux/arm/v7`
 
