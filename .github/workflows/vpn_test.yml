@@ -42,6 +42,7 @@ jobs:
             docker run \
               --name "$TEST_ID" \
               --restart=always \
+              -e VPN_DISABLE_USAGE_COUNTS=1 \
               -v wireguard-test-data:/etc/wireguard \
               -v ./vpn.env.example:/vpn.env:ro \
               -p 51820:51820/udp \
@@ -55,6 +56,7 @@ jobs:
             docker run \
               --name "$TEST_ID" \
               --restart=always \
+              -e VPN_DISABLE_USAGE_COUNTS=1 \
               -v wireguard-test-data:/etc/wireguard \
               -p 51820:51820/udp \
               -d --cap-add=NET_ADMIN \
