@@ -22,6 +22,7 @@
 - 不使用 Docker：[WireGuard 安裝腳本](https://github.com/hwdsl2/wireguard-install/blob/master/README-zh-Hant.md)
 - VPN：[OpenVPN](https://github.com/hwdsl2/docker-openvpn/blob/main/README-zh-Hant.md)、[IPsec VPN](https://github.com/hwdsl2/docker-ipsec-vpn-server/blob/master/README-zh-Hant.md)、[Headscale](https://github.com/hwdsl2/docker-headscale/blob/main/README-zh-Hant.md)
 - AI：[自架 AI 套件](https://github.com/hwdsl2/self-hosted-ai-stack/blob/main/README-zh-Hant.md)，用於本機 LLM、聊天、RAG、語音和 AI 工具
+- 書籍：[The Self-Hosted AI Builder’s Guide](https://books2read.com/aiguide?store=amazon)、[Privacy Tools in the Age of AI](https://books2read.com/privacy)
 
 ## 快速開始
 
