@@ -1,8 +1,8 @@
-[English](README.md) | [简体中文](README-zh.md) | [繁體中文](README-zh-Hant.md) | [Русский](README-ru.md)
+[English](../README.md) | [简体中文](README-zh.md) | [繁體中文](README-zh-Hant.md) | [Русский](README-ru.md)
 
 # 在 Docker 上运行 WireGuard VPN 服务器
 
-[![Build Status](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml/badge.svg)](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml) &nbsp;[![Docker Pulls](https://raw.githubusercontent.com/hwdsl2/badges/main/img/docker-pulls-wireguard-server.svg)](https://hub.docker.com/r/hwdsl2/wireguard-server) &nbsp;[![License: MIT](docs/images/license.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml/badge.svg)](https://github.com/hwdsl2/docker-wireguard/actions/workflows/main.yml) &nbsp;[![Docker Pulls](https://raw.githubusercontent.com/hwdsl2/badges/main/img/docker-pulls-wireguard-server.svg)](https://hub.docker.com/r/hwdsl2/wireguard-server) &nbsp;[![License: MIT](images/license.svg)](https://opensource.org/licenses/MIT)
 
 一个用于运行 WireGuard VPN 服务器的 Docker 镜像。基于 Alpine Linux，集成 WireGuard。设计目标是简单、现代且易于维护。
 
@@ -20,8 +20,8 @@
 **另提供：**
 
 - 不使用 Docker：[WireGuard 安装脚本](https://github.com/hwdsl2/wireguard-install/blob/master/README-zh.md)
-- VPN：[OpenVPN](https://github.com/hwdsl2/docker-openvpn/blob/main/README-zh.md)、[IPsec VPN](https://github.com/hwdsl2/docker-ipsec-vpn-server/blob/master/README-zh.md)、[Headscale](https://github.com/hwdsl2/docker-headscale/blob/main/README-zh.md)
-- AI：[自托管 AI 套件](https://github.com/hwdsl2/self-hosted-ai-stack/blob/main/README-zh.md)，用于本地 LLM、聊天、RAG、语音和 AI 工具
+- VPN：[OpenVPN](https://github.com/hwdsl2/docker-openvpn/blob/main/docs/README-zh.md)、[IPsec VPN](https://github.com/hwdsl2/docker-ipsec-vpn-server/blob/master/README-zh.md)、[Headscale](https://github.com/hwdsl2/docker-headscale/blob/main/docs/README-zh.md)
+- AI：[自托管 AI 套件](https://github.com/hwdsl2/self-hosted-ai-stack/blob/main/docs/README-zh.md)，用于本地 LLM、聊天、RAG、语音和 AI 工具
 
 > 📘 对自托管 AI 感兴趣吗？[The Self-Hosted AI Builder’s Guide](https://books2read.com/aiguide?store=amazon) 是一本关于构建、保护和运维自己的私有 AI 技术栈的实用指南。
 
@@ -97,7 +97,7 @@ docker image tag quay.io/hwdsl2/wireguard-server hwdsl2/wireguard-server
 
 所有变量均为可选项。未设置时将自动使用安全默认值。
 
-此 Docker 镜像使用以下变量，可以在 `env` 文件中声明（参见[示例](vpn.env.example)）：
+此 Docker 镜像使用以下变量，可以在 `env` 文件中声明（参见[示例](../vpn.env.example)）：
 
 | 变量 | 说明 | 默认值 |
 |---|---|---|

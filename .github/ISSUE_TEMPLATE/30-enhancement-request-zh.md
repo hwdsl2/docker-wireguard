@@ -9,7 +9,7 @@ assignees: ''
 **任务列表**
 
 - [ ] 我搜索了已有的 [Issues](https://github.com/hwdsl2/docker-wireguard/issues?q=is%3Aissue)，没有找到类似的改进建议
-- [ ] 我已阅读[自述文件](https://github.com/hwdsl2/docker-wireguard/blob/main/README-zh.md)或相关章节
+- [ ] 我已阅读[自述文件](https://github.com/hwdsl2/docker-wireguard/blob/main/docs/README-zh.md)或相关章节
 - [ ] 这个建议是关于 WireGuard Docker 镜像/配置
 
 **描述改进建议**
