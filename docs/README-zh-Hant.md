@@ -19,9 +19,9 @@
 
 **另提供：**
 
-- 不使用 Docker：[WireGuard 安裝腳本](https://github.com/hwdsl2/wireguard-install/blob/master/README-zh-Hant.md)
-- VPN：[OpenVPN](https://github.com/hwdsl2/docker-openvpn/blob/main/docs/README-zh-Hant.md)、[IPsec VPN](https://github.com/hwdsl2/docker-ipsec-vpn-server/blob/master/README-zh-Hant.md)、[Headscale](https://github.com/hwdsl2/docker-headscale/blob/main/docs/README-zh-Hant.md)
-- AI：[自架 AI 套件](https://github.com/hwdsl2/self-hosted-ai-stack/blob/main/docs/README-zh-Hant.md)，用於本機 LLM、聊天、RAG、語音和 AI 工具
+- **不使用 Docker：** [WireGuard 安裝腳本](https://github.com/hwdsl2/wireguard-install/blob/master/README-zh-Hant.md)
+- **VPN：** [OpenVPN](https://github.com/hwdsl2/docker-openvpn/blob/main/docs/README-zh-Hant.md)、[IPsec VPN](https://github.com/hwdsl2/docker-ipsec-vpn-server/blob/master/README-zh-Hant.md)、[Headscale](https://github.com/hwdsl2/docker-headscale/blob/main/docs/README-zh-Hant.md)
+- **AI：** [自架 AI 套件](https://github.com/hwdsl2/self-hosted-ai-stack/blob/main/docs/README-zh-Hant.md)，用於本機 LLM、聊天、RAG、語音和 AI 工具
 
 > 📘 對自架 AI 有興趣嗎？[The Self-Hosted AI Builder’s Guide](https://books2read.com/aiguide?store=amazon) 是一本關於建置、保護和維運自己的私有 AI 技術堆疊的實用指南。
 

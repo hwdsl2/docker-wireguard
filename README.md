@@ -19,9 +19,9 @@ Docker image to run a WireGuard VPN server. Based on Alpine Linux with WireGuard
 
 **Also available:**
 
-- Without Docker: [WireGuard install script](https://github.com/hwdsl2/wireguard-install)
-- VPN: [OpenVPN](https://github.com/hwdsl2/docker-openvpn), [IPsec VPN](https://github.com/hwdsl2/docker-ipsec-vpn-server), [Headscale](https://github.com/hwdsl2/docker-headscale)
-- AI: [Self-Hosted AI Stack](https://github.com/hwdsl2/self-hosted-ai-stack) for local LLMs, chat, RAG, voice and AI tools
+- **Without Docker:** [WireGuard install script](https://github.com/hwdsl2/wireguard-install)
+- **VPN:** [OpenVPN](https://github.com/hwdsl2/docker-openvpn), [IPsec VPN](https://github.com/hwdsl2/docker-ipsec-vpn-server), [Headscale](https://github.com/hwdsl2/docker-headscale)
+- **AI:** [Self-Hosted AI Stack](https://github.com/hwdsl2/self-hosted-ai-stack) for local LLMs, chat, RAG, voice and AI tools
 
 > 📘 Interested in self-hosted AI? [The Self-Hosted AI Builder’s Guide](https://books2read.com/aiguide?store=amazon) is a practical guide to building, securing, and operating your own private AI stack.
 
